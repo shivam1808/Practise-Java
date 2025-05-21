@@ -17,7 +17,7 @@ public class ImmutableExampleWithRecord {
 
         /*
             it will throw UnsupportedOperationException as we are trying to modify a collection
-            which is created using unmodifiable list.
+            which is created using an unmodifiable list.
          */
         list.add("B");
 

@@ -19,5 +19,9 @@ public class ImmutableExample {
         list.add("B");
 
         System.out.println("Updated Immutable Model - " + immutableModel);
+
+        Integer i = Integer.valueOf(112586);
+        i = i + 1;
+        System.out.println("i = " + i);
     }
 }
